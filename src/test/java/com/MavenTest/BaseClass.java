@@ -9,12 +9,9 @@ public class BaseClass {
 	@Test
 	public void setUp() {
 		System.setProperty("webdriver,chromedriver", "Drivers\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
-		
-		System.out.println("this");
+
 	}
-public void failThis () {
-	Assert.assertEquals(12, 12);
-}
+
 }

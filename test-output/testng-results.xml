@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-29T17:07:19Z" name="Default suite" finished-at="2018-12-29T17:07:19Z" duration-ms="105">
+  <suite started-at="2018-12-29T18:06:57Z" name="Default suite" finished-at="2018-12-29T18:06:57Z" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2018-12-29T17:07:19Z" name="Default test" finished-at="2018-12-29T17:07:19Z" duration-ms="105">
+    <test started-at="2018-12-29T18:06:57Z" name="Default test" finished-at="2018-12-29T18:06:57Z" duration-ms="87">
       <class name="com.MavenTest.BaseClass">
-        <test-method signature="setUp()[pri:0, instance:com.MavenTest.BaseClass@52af26ee]" started-at="2018-12-29T17:07:19Z" name="setUp" finished-at="2018-12-29T17:07:19Z" duration-ms="82" status="FAIL">
+        <test-method signature="setUp()[pri:0, instance:com.MavenTest.BaseClass@6fd83fc1]" started-at="2018-12-29T18:06:57Z" name="setUp" finished-at="2018-12-29T18:06:57Z" duration-ms="65" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -21,7 +21,7 @@ at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.MavenTest.BaseClass.setUp(BaseClass.java:11)
+at com.MavenTest.BaseClass.setUp(BaseClass.java:12)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
