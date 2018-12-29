@@ -1,5 +1,4 @@
-package com.Maven
-Test;
+package com.MavenTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,11 +12,9 @@ public class BaseClass {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");
 		
-		System.out.println("This is my project");
-		
+		System.out.println("this");
 	}
-	public void failThis() {
-		Assert.assertEquals(12, 13);
-	}
-
+public void failThis () {
+	Assert.assertEquals(12, 12);
+}
 }
